@@ -1,0 +1,31 @@
+{
+    "name": "IoT micro:bit ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.1.7",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "main.py",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.0.12",
+        "tag": "v5.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/97491d6832cccab6b5bdc05b58e4c6b5dcc18cdd",
+        "target": "6.0.26",
+        "pxt": "8.0.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
